@@ -6,10 +6,63 @@
     <Name>distribuicoes_multidim.database</Name>
     <FullPath>distribuicoes_multidim.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>Distribuicoes.cube</Name>
+      <FullPath>Distribuicoes.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Distribuicoes.partitions</Name>
+          <FullPath>Distribuicoes.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
+  <Dimensions>
+    <ProjectItem>
+      <Name>Produto.dim</Name>
+      <FullPath>Produto.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Venda.dim</Name>
+      <FullPath>Venda.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Fornecedor.dim</Name>
+      <FullPath>Fornecedor.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
+  <DataSources>
+    <ProjectItem>
+      <Name>Distribuicoes.ds</Name>
+      <FullPath>Distribuicoes.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>Distribuicoes.dsv</Name>
+      <FullPath>Distribuicoes.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
-      <Options />
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>Distribuicoes</Id>
+            <Name>Distribuicoes</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=G5C26\MSSQLSERVER2012;Password=;User ID=;Initial Catalog=distribuicoes</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>Distribuicoes</Id>
+            <Name>Distribuicoes</Name>
+            <Value xsi:type="xsd:int">1</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+      </Options>
     </Configuration>
   </Configurations>
 </Project>
