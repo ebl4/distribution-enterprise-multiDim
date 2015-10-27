@@ -3,7 +3,7 @@
     <Configuration>
       <Name>Development</Name>
       <Options>
-        <TargetServer>localhost</TargetServer>
+        <TargetServer>localhost\mssqlserver2012</TargetServer>
         <TargetDatabase>distribuicoes_multidim</TargetDatabase>
         <StartObject>
           <ObjectId></ObjectId>

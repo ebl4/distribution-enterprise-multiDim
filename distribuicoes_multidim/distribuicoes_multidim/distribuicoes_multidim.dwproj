@@ -20,16 +20,20 @@
   </Cubes>
   <Dimensions>
     <ProjectItem>
+      <Name>Fornecedor.dim</Name>
+      <FullPath>Fornecedor.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Date.dim</Name>
+      <FullPath>Dim Date.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
       <Name>Produto.dim</Name>
       <FullPath>Produto.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Venda.dim</Name>
-      <FullPath>Venda.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Fornecedor.dim</Name>
-      <FullPath>Fornecedor.dim</FullPath>
+      <Name>Gerente.dim</Name>
+      <FullPath>Gerente.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
@@ -43,6 +47,10 @@
       <Name>Distribuicoes.dsv</Name>
       <FullPath>Distribuicoes.dsv</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>distribuicoes_multidim.dsv</Name>
+      <FullPath>distribuicoes_multidim.dsv</FullPath>
+    </ProjectItem>
   </DataSourceViews>
   <Configurations>
     <Configuration>
@@ -52,7 +60,7 @@
           <ConfigurationSetting>
             <Id>Distribuicoes</Id>
             <Name>Distribuicoes</Name>
-            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=G5C26\MSSQLSERVER2012;Password=;User ID=;Initial Catalog=distribuicoes</Value>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=G5C32\MSSQLSERVER2012;Password=;User ID=;Initial Catalog=distribuicoes</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>
