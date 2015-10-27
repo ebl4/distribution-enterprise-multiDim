@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "distribuicoes_final", "distribuicoes_final\distribuicoes_final.dwproj", "{74C2C97B-F6BF-4779-BB49-7998CF1AB8DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74C2C97B-F6BF-4779-BB49-7998CF1AB8DB}.Development|Default.ActiveCfg = Development
+		{74C2C97B-F6BF-4779-BB49-7998CF1AB8DB}.Development|Default.Build.0 = Development
+		{74C2C97B-F6BF-4779-BB49-7998CF1AB8DB}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
