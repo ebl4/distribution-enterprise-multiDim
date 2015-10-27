@@ -3169,6 +3169,7 @@ CREATE TABLE [dbo].[Venda](
 	[Cod_Produto] [nvarchar](50) NULL,
 	[Cod_Fornecedor] [nvarchar](50) NOT NULL,
 	[DateKey] [int] NOT NULL,
+	[Valor_Venda] [float] NOT NULL,
 	
  CONSTRAINT [PK_Venda] PRIMARY KEY CLUSTERED 
 (
