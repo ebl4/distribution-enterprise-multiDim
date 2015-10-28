@@ -67,3 +67,5 @@ WHERE Preco BETWEEN 3000 AND 7000;
 UPDATE Produto
 SET CategoriaPrecos = 'Caro'
 WHERE Preco > 7000;
+
+
