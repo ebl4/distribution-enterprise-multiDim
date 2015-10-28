@@ -19,49 +19,49 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>yxj0yVu1GOZHitEpWHNP4mccrv4=27/10/2015 15:38:2527/10/2015 15:38:25</TimeStamp>
+        <TimeStamp>yxj0yVu1GOZHitEpWHNP4mccrv4=27/10/2015 15:38:2527/10/2015 15:55:32</TimeStamp>
         <ID>
           <String>Distribuicoes</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>bt8Bghuh/qVo/s5ZTmv4r7Qnbx4=27/10/2015 15:38:3627/10/2015 15:38:36</TimeStamp>
+        <TimeStamp>bt8Bghuh/qVo/s5ZTmv4r7Qnbx4=27/10/2015 15:38:3627/10/2015 15:55:32</TimeStamp>
         <ID>
           <String>Distribuicoes</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>ww0hGUweFH18v8GpZ5Z2CRqgeww=27/10/2015 15:47:3327/10/2015 15:38:46</TimeStamp>
+        <TimeStamp>ww0hGUweFH18v8GpZ5Z2CRqgeww=27/10/2015 15:47:3327/10/2015 15:55:32</TimeStamp>
         <ID>
           <String>Fornecedor</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>gJ2dMph7sa3Uv/UUDsain30dKxs=27/10/2015 15:45:2727/10/2015 15:38:46</TimeStamp>
+        <TimeStamp>gJ2dMph7sa3Uv/UUDsain30dKxs=27/10/2015 15:45:2727/10/2015 15:55:32</TimeStamp>
         <ID>
           <String>Dim Date</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>U2uNhOAejw9jYtZtoKwB2cUe2Ng=27/10/2015 15:54:0027/10/2015 15:38:46</TimeStamp>
+        <TimeStamp>U2uNhOAejw9jYtZtoKwB2cUe2Ng=27/10/2015 15:54:0027/10/2015 15:55:32</TimeStamp>
         <ID>
           <String>Produto</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>68U5fPn70k/idgoRDuGl2GmrMP0=27/10/2015 15:50:4127/10/2015 15:38:46</TimeStamp>
+        <TimeStamp>68U5fPn70k/idgoRDuGl2GmrMP0=27/10/2015 15:50:4127/10/2015 15:55:32</TimeStamp>
         <ID>
           <String>Gerente</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>LmVdkhy8cTlZ7/8PbO6FJlup/IA=27/10/2015 15:52:4327/10/2015 15:38:46Tp6GWN8wXPxdWrZScIhIezNk+mM=27/10/2015 15:38:4627/10/2015 15:38:46</TimeStamp>
+        <TimeStamp>LmVdkhy8cTlZ7/8PbO6FJlup/IA=27/10/2015 15:52:4327/10/2015 15:55:32Tp6GWN8wXPxdWrZScIhIezNk+mM=27/10/2015 15:38:4627/10/2015 15:55:32</TimeStamp>
         <ID>
           <String>Distribuicoes</String>
         </ID>
@@ -69,7 +69,7 @@
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
-      <TimeStamp>Ju9TPWjGrknwmdocz9YULhwpS7Y=27/10/2015 15:37:4127/10/2015 15:37:41</TimeStamp>
+      <TimeStamp>Ju9TPWjGrknwmdocz9YULhwpS7Y=27/10/2015 15:37:4127/10/2015 15:55:32</TimeStamp>
       <ID>
         <String>distribuicoes_final</String>
       </ID>
@@ -78,5 +78,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2015-10-27T18:54:04.29Z</LastDeployed>
+  <LastDeployed>2015-10-27T23:03:45.73Z</LastDeployed>
 </DeploymentSnapshot>
