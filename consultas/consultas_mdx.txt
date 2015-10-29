@@ -1,0 +1,16 @@
+DrilDownLevel
+
+- Mostre a quantidade de vendas realizadas em todos os meses dos trimestres de 2008
+
+select {DrillDownLevel({[DimDate].[Calendar Quarter].Members})} on rows
+		
+from [distribuicoes]
+
+DrillDownMember
+
+-- Mostre em uma consulta o valor das vendas realizadas nos três primeiros trimestres de 2009,
+detalhando os valores do segundo trimestre
+
+select {DrillDownMember({[DimDate].[2009].[Q1], [DimDate].[2009].[Q2], 
+		[DimDate].[2009].[Q3], [DimDate].[2009].[Q2]})} on rows
+from [distribuicoes]

@@ -1,0 +1,6 @@
+WITH MEMBER [Measures].[TimeRank] as 
+RANK([Dim Date].[Calendar Year].CURRENTMEMBER, {[Dim Date].[Calendar Year].CHILDREN})
+
+select {[Measures].[TimeRank]} on columns,
+	{[Produto].[Cod Produto].[All]} on rows
+from ([Distribuicoes])

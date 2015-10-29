@@ -1,0 +1,5 @@
+
+select {DrillDownLevel({[Dim Date].[Calendar Quarter].Members})} on columns,
+	{[Dim Date].[Calendar Year].&[2008]} on rows
+from [Distribuicoes]
+where ([Meaures].[Venda Count])

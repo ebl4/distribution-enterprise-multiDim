@@ -1,0 +1,5 @@
+-- Exibe as vendas de todos os fornecedores para todas as categorias de produtos no ano de 2010
+
+select {[Dim Date].[Calendar Year].&[2010]} on columns,
+CROSSJOIN ({[Fornecedor].[CNPJ].Members}, {[Produto].[Categoria].Members}) on rows
+from [Distribuicoes]

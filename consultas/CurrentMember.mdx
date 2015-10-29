@@ -1,0 +1,10 @@
+-- Exibe o resultado da diferenca de vendas de cada fornecedor com o fornecedor anterior na relação 
+-- no ano de 2005
+
+WITH MEMBER [Measures].[Diferenca Vendas Fornecedor] as
+([Fornecedor].[CNPJ].CurrentMember, [Measures].[Valor Venda]) - ([Fornecedor].[CNPJ].PREVMEMBER, [Measures].[Valor Venda])
+
+select {[Dim Date].[Calendar Year].&[2005]} on rows,
+{[Produto].[All].Children} on columns
+from [Distribuicoes]
+where ([Measures].[Diferenca Vendas Fornecedor])
